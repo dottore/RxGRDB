@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "RxGRDB", targets: ["RxGRDB"]),
     ],
     dependencies: [
-        .package(name: "GRDB", url: "https://github.com/Pictarine/GRDB.swift.git", .upToNextMajor(from: "5.0.0")),
+        .package(name: "GRDB", url: "https://github.com/dottore/GRDB.swift.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0"))
     ],
     targets: [
