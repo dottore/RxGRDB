@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "RxGRDB",
     platforms: [
-        .iOS("10.0"),
+        .iOS("12.0"),
         .macOS("10.10"),
         .tvOS("9.0"),
         .watchOS("2.0"),
@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "RxGRDB", targets: ["RxGRDB"]),
     ],
     dependencies: [
-        .package(name: "GRDB", url: "https://github.com/groue/GRDB.swift.git", .upToNextMajor(from: "5.0.0")),
+        .package(name: "GRDB", url: "https://github.com/Pictarine/GRDB.swift.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0"))
     ],
     targets: [
